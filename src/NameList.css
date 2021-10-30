@@ -1,0 +1,60 @@
+.FormGone{
+    display: none;
+    
+
+}
+
+.container{
+    padding: 35px;
+}
+
+.FormOnDisplay{
+    display: block;
+    
+}
+
+.ContactsForm{
+    /* padding: 35px; */
+    height: 500px;
+    max-width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: slategrey 2px solid;
+    background-color: rgba(245, 245, 191, 0.849);
+}
+.form-group{
+    padding-top: 25px;
+}
+
+.submitButton{
+    float: right;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+input{
+    margin-top: 10px;
+}
+
+.centeralign{
+    padding: 20px;
+    text-align: center;
+}
+.row{
+    padding: 10px;
+    margin: 5px;
+}
+
+.namesList{
+    height: 60vh;
+    overflow-y:  scroll;   
+}
+span{
+    padding: 5px ;
+    margin: 5px;
+}
+.floatright{
+    float: right;
+}
