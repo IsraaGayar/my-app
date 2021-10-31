@@ -5,11 +5,17 @@ import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import reportWebVitals from './reportWebVitals';
 import './NameList.css';
 import NameList from './NameList'
+import Todo2 from './Todo2';
+
+import MyMainApp from './MyMainApp';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <NameList></NameList>
+    <MyMainApp></MyMainApp>
+ 
+    {/* <NameList></NameList> */}
+    {/* <Todo2></Todo2> */}
 
     {/* <NameList></NameList> */}
     {/* <Todo2/> */}
