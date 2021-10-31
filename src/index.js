@@ -1,14 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App2 from './App2';
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
-
 import reportWebVitals from './reportWebVitals';
-import ToDoList from './ToDoList';
-import { Todo2 } from './Todo2';
-import NameList from './NameList';
-import './NameList.css'
+import './NameList.css';
+import NameList from './NameList'
 
 
 ReactDOM.render(
