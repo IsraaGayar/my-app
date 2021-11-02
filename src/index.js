@@ -2,17 +2,23 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
+// import . from '../node_modules/bootstrap/dist/js/bootstrap.js'
+
 import reportWebVitals from './reportWebVitals';
 import './NameList.css';
 import NameList from './NameList'
 import Todo2 from './Todo2';
 
 import MyMainApp from './MyMainApp';
+import { BrowserRouter } from 'react-router-dom';
+
 
 
 ReactDOM.render(
   <React.StrictMode>
+    <BrowserRouter>
     <MyMainApp></MyMainApp>
+    </BrowserRouter>
  
     {/* <NameList></NameList> */}
     {/* <Todo2></Todo2> */}

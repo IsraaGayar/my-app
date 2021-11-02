@@ -88,13 +88,13 @@ span{
 }
 .navbar-nav{
     width: 100%;
-    display: inline-block;
-}
+    display: inline-block; 
+ }
 .nav-item{
     display: inline-block;
     margin: 5px;
     color: white;
-}
+} 
 .logInpage{
 
     background-image: url('img/bkimg.jpg');
